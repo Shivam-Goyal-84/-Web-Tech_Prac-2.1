@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(37, 37, 37);
+padding: 1%;
+}
+
+.container {
+    
+    background-color: beige;
+    margin: auto;
+    padding: 2%;
+    border: 4px solid red;
+    width: 420px;
+}
+
+form {
+    text-align: right;
+
+
+}
+
+form label {
+    padding-right: 10px;
+    font-weight: bolder;
+}
+
+
+form input,
+form textarea,
+form select {
+    width: 60%;
+}
+
+textarea {
+    vertical-align: middle
+}
+
+form h3 {
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+}
+
+form #note {
+    text-align: justify;
+    color: red;
+}
+
+form strong {
+    color: red;
+    display: block;
+    text-align: center;
+}
+
+
+
+input[type="reset"],
+input[type="submit"] {
+        background-image: linear-gradient(to right, rgb(250, 166, 105) ,rgb(255, 65, 113));
+border-radius: 4%;
+      font-style:oblique;
+    float: none;
+    padding: 2%;
+    margin: 0%;
+    margin-right: 10%;
+    width: 30%;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+    background-color: rgb(255, 255, 196);
+}
